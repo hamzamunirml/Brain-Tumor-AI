@@ -29,6 +29,7 @@ scipy>=1.13
 # ---- Visualization ----
 matplotlib>=3.9
 seaborn>=0.13
+plotly==6.9.0
 
 # ---- Utilities ----
 tqdm>=4.66
