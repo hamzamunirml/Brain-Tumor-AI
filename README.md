@@ -1,5 +1,8 @@
 # Brain Tumor Detector (CT & MRI)
 
+<img width="1600" height="500" alt="image" src="https://github.com/user-attachments/assets/8561765b-5f97-499c-bc5d-54406caeb148" />
+
+
 Streamlit web app that classifies brain CT/MRI scan images as **Healthy** or
 **Tumor**, using models trained on the
 [Brain Tumor Multimodal Image (CT & MRI)](https://www.kaggle.com/datasets/murtozalikhon/brain-tumor-multimodal-image-ct-and-mri)
