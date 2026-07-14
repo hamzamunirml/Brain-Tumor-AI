@@ -1,0 +1,39 @@
+# Brain Tumor Detection Project — requirements.txt
+# Target: Python 3.12.10
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# Note: TensorFlow only added official Python 3.12 support from v2.16 onward,
+# so tensorflow is pinned to >=2.16 — do NOT use an older version on 3.12.10.
+
+# ---- Deep Learning ----
+tensorflow>=2.16,<2.22
+
+# ---- Web App ----
+streamlit>=1.38
+
+# ---- Core data / numeric ----
+numpy>=1.26
+pandas>=2.2
+
+# ---- Image processing ----
+opencv-python-headless>=4.9
+pillow>=10.3
+scikit-image>=0.24
+
+# ---- Classical ML / evaluation ----
+scikit-learn>=1.5
+scipy>=1.13
+
+# ---- Visualization ----
+matplotlib>=3.9
+seaborn>=0.13
+
+# ---- Utilities ----
+tqdm>=4.66
+joblib>=1.4
+
+# ---- Notebook support (only needed to run the .ipynb files) ----
+jupyter>=1.0
+ipykernel>=6.29

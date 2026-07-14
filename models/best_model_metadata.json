@@ -1,0 +1,19 @@
+{
+  "model_name": "ResNet50",
+  "filename": "resnet50_best.keras",
+  "img_size": [
+    224,
+    224
+  ],
+  "class_names": [
+    "Healthy",
+    "Tumor"
+  ],
+  "test_metrics": {
+    "Accuracy": 0.966,
+    "Precision": 0.9857,
+    "Recall": 0.9524,
+    "F1": 0.9688,
+    "AUC": 0.9929
+  }
+}
